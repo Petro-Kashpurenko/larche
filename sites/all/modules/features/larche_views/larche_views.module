@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Larche Views feature.
+ */
+
+include_once 'larche_views.features.inc';
