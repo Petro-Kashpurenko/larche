@@ -1,0 +1,4 @@
+name = Larche Custom
+description = Various site customizations.
+package = Larche
+core = 7.x

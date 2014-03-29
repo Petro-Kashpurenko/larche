@@ -1,0 +1,144 @@
+<?php
+/**
+ * @file
+ * Custom Advice Group module.
+ */
+
+/**
+ * Implements hook_init().
+ */
+function larche_custom_init() {
+  // drupal_add_js(drupal_get_path('module', 'larche_custom') . '/js/advice.js');
+//       $node_obj = node_load(21);
+    
+//     // Team member attributes.
+//     $news_title = $node_obj->title;
+//     $news_picture = $node_obj->field_image[LANGUAGE_NONE][0]['uri'];
+//     $news_body = $node_obj->body[LANGUAGE_NONE][0]['value'];
+//     $news_created = $node_obj->created;
+// var_dump($node_obj->created);
+}
+
+/**
+ * Implements hook_menu().
+ */
+function larche_custom_menu() {
+  $items = array();
+
+  $items['modal-newspopup-callback/%ctools_js/%'] = array(
+    'page callback' => 'larche_custom_modal_callback',
+    'page arguments' => array(2, 1),
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+/**
+ * Implements larche_custom_modal_callback().
+ */
+function larche_custom_modal_callback($nid, $js = FALSE) {
+  // If the user doesn't have js, redirect them to the node page.
+  if (!$js) {
+    drupal_goto('node/' . $nid);
+  }
+  else {
+    // Javascript is on, prepare ctools modals.
+    ctools_include('ajax');
+    ctools_include('modal');
+    
+    $node_obj = node_load($nid);
+    
+    // Team member attributes.
+    $news_title = $node_obj->title;
+    $news_picture = $node_obj->field_image[LANGUAGE_NONE][0]['uri'];
+    $news_body = $node_obj->body[LANGUAGE_NONE][0]['value'];
+    $news_created = date("d.m.y", $node_obj->created);
+
+    $form['#attributes'] = array('class' => array('news-popup'));
+
+    $form['picture'] = array(
+      '#type' => 'item',
+      '#markup' => theme('image_style', array(
+        'style_name' => '800x800',
+        'path' => $news_picture,
+        'attributes' => array('class' => 'news-picture'),
+      )),
+    );
+
+    $form['created'] = array(
+      '#prefix' => '<div class="right">',
+      '#type' => 'item',
+      '#markup' => $news_created,
+    );
+
+    $alter = array();
+    $alter['max_length'] = 20;
+    $alter['word_boundary'] = TRUE;
+
+    $form['title'] = array(
+      '#type' => 'item',
+      '#markup' => views_trim_text($alter, $news_title),
+    );
+
+    $alter['max_length'] = 200;
+
+    $form['about'] = array(
+      '#type' => 'item',
+      '#markup' => views_trim_text($alter, $news_body),
+      '#suffix' => '</div>',
+    );
+    
+    ctools_modal_render($news_name, $form);
+    exit;
+  }
+}
+
+/**
+ * Preprocess for template_preprocess_views_view_fields().
+ */
+function larche_custom_preprocess_views_view_field(&$vars) {
+  switch ($vars['view']->name) {
+    case 'news':
+      switch ($vars['view']->current_display) {
+        case 'block':
+          switch ($vars['field']->field) {
+            case 'nothing':
+              if (!empty($vars['output'])) {
+                ctools_include('modal');
+                ctools_include('ajax');
+                ctools_modal_add_js();
+                $vars['output'] = ctools_modal_text_button($vars['output'],
+                  'modal-newspopup-callback/nojs/' . $vars['row']->nid,
+                  t('Read More'), $class = 'button ctools-modal-larche-modal-style');
+                drupal_add_js(array(
+                  'larche-modal-style' => array(
+                    'modalSize' => array(
+                      'type' => 'fixed',
+                      'width' => 635,
+                      'height' => 'auto',
+                    ),
+                    'modalOptions' => array(
+                      'opacity' => .7,
+                      'background-color' => '#828282',
+                    ),
+                    'animation' => 'fadeIn',
+                    'closeText' => '',
+                    'closeImage' => theme('image', array(
+                      'path' => drupal_get_path('module', 'larche_custom') . '/img/close-popup.png',
+                      'title' => t('Close window'),
+                      'alt' => t('Close window'),
+                    )),
+                  ),
+                ), 'setting');
+                ctools_add_css('shop_now_modal', 'larche_custom');
+              }
+              break;
+              
+          }
+          break;
+      }
+      break;
+  }
+}
