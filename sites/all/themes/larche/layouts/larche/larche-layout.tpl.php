@@ -1,4 +1,5 @@
 <div<?php print $attributes; ?>>
+  <div class="l-header-wrapper">
   <header class="l-header" role="banner">
     <div class="l-branding">
       <?php if ($logo): ?>
@@ -23,8 +24,9 @@
     <?php print render($page['header']); ?>
     <?php print render($page['navigation']); ?>
   </header>
+  </div>
 
-  <div class="l-main">
+    <div class="l-main">
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>

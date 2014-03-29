@@ -1,0 +1,105 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+body {
+  font-family: 'Open Sans'; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\000031}}
+.l-branding {
+  margin-top: 1.6em;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\000036}}
+.site-logo img {
+  width: 89px;
+  height: 81px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000311}}
+.l-header-wrapper {
+  -webkit-box-shadow: rgba(17, 17, 17, 0.4) 0px 5px 5px;
+  -moz-box-shadow: rgba(17, 17, 17, 0.4) 0px 5px 5px;
+  box-shadow: rgba(17, 17, 17, 0.4) 0px 5px 5px;
+  z-index: 100; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000317}}
+#block-system-main-menu a {
+  font-weight: bold;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000321}}
+#block-system-main-menu > ul {
+  margin: 0;
+  padding: 0;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000326}}
+#block-system-main-menu > ul > li {
+  display: inline-block;
+  font-size: 1.125em;
+  margin: .5em 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000331}}
+  #block-system-main-menu > ul > li:hover ul {
+    z-index: 1;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000336}}
+  #block-system-main-menu > ul > li a {
+    display: block;
+    color: #aeaeae;
+    padding-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000340}}
+    #block-system-main-menu > ul > li a.active-trail {
+      color: #0298ca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000344}}
+  #block-system-main-menu > ul > li ul {
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    -webkit-box-shadow: rgba(17, 17, 17, 0.4) 0px 3px 4px;
+    -moz-box-shadow: rgba(17, 17, 17, 0.4) 0px 3px 4px;
+    box-shadow: rgba(17, 17, 17, 0.4) 0px 3px 4px;
+    z-index: -1;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    opacity: 0;
+    position: absolute;
+    left: -10px;
+    width: 960px;
+    background-color: rgba(2, 152, 202, 0.9);
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000357}}
+    #block-system-main-menu > ul > li ul a {
+      color: white;
+      border-left: 1px solid white;
+      padding-left: .5em;
+      margin-left: 1.6em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000362}}
+      #block-system-main-menu > ul > li ul a .description {
+        margin-top: .25em;
+        font-size: .875em;
+        font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000368}}
+    #block-system-main-menu > ul > li ul li {
+      width: 23.72881%;
+      float: left;
+      margin-right: 1.69492%;
+      display: inline;
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+      list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000374}}
+      #block-system-main-menu > ul > li ul li:nth-child(4n) {
+        float: right;
+        margin-right: 0;
+        #margin-left: -1em;
+        display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000377}}
+      #block-system-main-menu > ul > li ul li:nth-child(5n) {
+        clear: left; }
