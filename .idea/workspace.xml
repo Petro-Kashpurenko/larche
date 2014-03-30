@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1861564-0f80-4f65-a1b9-04db6ec69660" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/fonts/larche/larche-icon-font.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/fonts/larche/larche-icon-font.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/fonts/larche/larche-icon-font.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_news.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/templates/system/html.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/fonts/larche/larche-icon-font.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/templates/system/maintenance-page.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-unformatted--preface-block--block.tpl.php" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/DSC07688.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/DSCF3507.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/betania.jpg" afterPath="" />
@@ -29,19 +20,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/DSC07688.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/DSCF3507.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/betania.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/xmlsitemap/NXhscRe0440PFpI5dSznEVgmauL25KojD7u4e9aZwOM/1.xml" afterPath="$PROJECT_DIR$/sites/default/files/xmlsitemap/NXhscRe0440PFpI5dSznEVgmauL25KojD7u4e9aZwOM/1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_navigation.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_navigation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/base/_typography.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/base/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/layouts/larche/larche-layout.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/larche/layouts/larche/larche-layout.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/layouts/larche/larche.layout.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/layouts/larche/larche.layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/layouts/larche/larche.layout.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/layouts/larche/larche.layout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/larche.styles.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/larche.styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="larche.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +44,7 @@
     <file path="/a.dummy" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396141463767" ignored="false" />
     <file path="/_news.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396168371120" ignored="false" />
     <file path="/views-view-fields--preface-block--block.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396173629071" ignored="false" />
-    <file path="/_preface-blocks.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396173717457" ignored="false" />
+    <file path="/_preface-blocks.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396177725515" ignored="false" />
     <file path="/page.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396166182663" ignored="false" />
     <file path="/html.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396166157688" ignored="false" />
     <file path="/page--front.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396166206800" ignored="false" />
@@ -198,7 +179,7 @@
       <file leaf-file-name="_preface-blocks.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="19" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.20036764">
+            <state line="71" column="25" selection-start="1273" selection-end="1273" vertical-scroll-proportion="-0.875">
               <folding />
             </state>
           </provider>
@@ -1176,7 +1157,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="19" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.20036764">
+        <state line="71" column="25" selection-start="1273" selection-end="1273" vertical-scroll-proportion="-0.875">
           <folding />
         </state>
       </provider>
