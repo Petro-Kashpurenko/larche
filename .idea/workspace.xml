@@ -20,9 +20,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/DSC07688.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/DSCF3507.JPG" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/betania.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" />
     </list>
     <ignored path="larche.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,10 +106,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="larche-layout.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/layouts/larche/larche-layout.tpl.php">
+      <file leaf-file-name="settings.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1218" selection-end="1218" vertical-scroll-proportion="6.25">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.4938016">
               <folding />
             </state>
           </provider>
@@ -176,10 +173,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_preface-blocks.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_preface-blocks.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="25" selection-start="1273" selection-end="1273" vertical-scroll-proportion="-0.875">
+            <state line="71" column="25" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1046,13 +1043,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/layouts/larche/larche.layout.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="1" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-16.875">
@@ -1157,7 +1147,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="25" selection-start="1273" selection-end="1273" vertical-scroll-proportion="-0.875">
+        <state line="71" column="25" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.4938016">
           <folding />
         </state>
       </provider>
