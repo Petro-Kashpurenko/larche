@@ -242,7 +242,11 @@ body {
 .flexslider a:focus {
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000321}}
+.l-slider-wrapper {
+  background-color: #1BACAD; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000327}}
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -255,28 +259,28 @@ body {
 /* Font-face Icons */
 /* FlexSlider Necessary Styles
 *********************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000346}}
 .flexslider {
   margin: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000351}}
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000357}}
 .flexslider .slides img {
   width: 100%;
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000362}}
 .flex-pauseplay span {
   text-transform: capitalize; }
 
 /* Clearfix for the .slides element */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000367}}
 .slides:after {
   content: "\0020";
   display: block;
@@ -285,31 +289,31 @@ body {
   line-height: 0;
   height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000376}}
 html[xmlns] .slides {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000380}}
 * html .slides {
   height: 1%; }
 
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000387}}
 .no-js .slides > li:first-child {
   display: block; }
 
 /* FlexSlider Default Theme
 *********************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000393}}
 .flexslider {
   margin: 0 0 60px;
   background: #fff;
   position: relative;
   zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003100}}
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
@@ -317,24 +321,24 @@ html[xmlns] .slides {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003105}}
 .loading .flex-viewport {
   max-height: 300px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003109}}
 .flexslider .slides {
   zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003113}}
 .carousel li {
   margin-right: 5px; }
 
 /* Direction Nav */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003118}}
 .flex-direction-nav {
   *height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003122}}
 .flex-direction-nav a {
   text-decoration: none;
   display: block;
@@ -354,48 +358,48 @@ html[xmlns] .slides {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003139}}
 .flex-direction-nav .flex-prev {
   left: -50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003143}}
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003148}}
 .flexslider:hover .flex-prev {
   opacity: 0.7;
   left: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003153}}
 .flexslider:hover .flex-next {
   opacity: 0.7;
   right: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003158}}
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
   opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003162}}
 .flex-direction-nav .flex-disabled {
   opacity: 0 !important;
   filter: alpha(opacity=0);
   cursor: default; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003168}}
 .flex-direction-nav a:before {
   font-family: "larche-icon-font";
   font-size: 40px;
   display: inline-block;
   content: '\e60b'; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003175}}
 .flex-direction-nav a.flex-next:before {
   content: '\e60c'; }
 
 /* Pause/Play */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003180}}
 .flex-pauseplay a {
   display: block;
   width: 20px;
@@ -409,37 +413,37 @@ html[xmlns] .slides {
   cursor: pointer;
   color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003194}}
 .flex-pauseplay a:before {
   font-family: "larche-icon-font";
   font-size: 20px;
   display: inline-block;
   content: '\e60b'; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003201}}
 .flex-pauseplay a:hover {
   opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003205}}
 .flex-pauseplay a.flex-play:before {
   content: '\e60c'; }
 
 /* Control Nav */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003210}}
 .flex-control-nav {
   width: 100%;
   position: absolute;
   bottom: -40px;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003217}}
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
   *display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003224}}
 .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -457,56 +461,56 @@ html[xmlns] .slides {
   -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003242}}
 .flex-control-paging li a:hover {
   background: #333;
   background: rgba(0, 0, 0, 0.7); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003247}}
 .flex-control-paging li a.flex-active {
   background: #000;
   background: rgba(0, 0, 0, 0.9);
   cursor: default; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003253}}
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003259}}
 .flex-control-thumbs li {
   width: 25%;
   float: left;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003265}}
 .flex-control-thumbs img {
   width: 100%;
   display: block;
   opacity: .7;
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003272}}
 .flex-control-thumbs img:hover {
   opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003276}}
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default; }
 
 @media screen and (max-width: 860px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003282}}
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003286}}
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003294}}
 .view-front-page-slider .node__title {
   display: none; }
 
@@ -590,63 +594,85 @@ html[xmlns] .slides {
     width: 100%;
     height: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000358}}
+#block-views-preface-block-block .flipper-container .back {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000361}}
 #block-views-preface-block-block .flipper-container .back-inner {
   padding: 1em;
   color: white;
   font-size: .875em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000365}}
   #block-views-preface-block-block .flipper-container .back-inner p {
     margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000369}}
-#block-views-preface-block-block .preface-0 .front {
-  background-color: #0298ca; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000372}}
-  #block-views-preface-block-block .preface-0 .front:before {
-    top: 35px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000376}}
-#block-views-preface-block-block .preface-0 .back {
-  background-color: #0285b1;
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000379}}
-  #block-views-preface-block-block .preface-0 .back p {
-    text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000382}}
-  #block-views-preface-block-block .preface-0 .back a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000368}}
+  #block-views-preface-block-block .flipper-container .back-inner a {
     color: white;
     text-decoration: none;
     position: absolute;
     padding: 1em 2em;
-    background-color: #015f7e;
     bottom: 1em;
     border-radius: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000380}}
+#block-views-preface-block-block .preface-0 .front {
+  background-color: #0298ca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000383}}
+  #block-views-preface-block-block .preface-0 .front:before {
+    top: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000387}}
+#block-views-preface-block-block .preface-0 .back {
+  background-color: #0285b1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000389}}
+  #block-views-preface-block-block .preface-0 .back a {
+    background-color: #015f7e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000391}}
+    #block-views-preface-block-block .preface-0 .back a:hover {
+      background-color: #02abe3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000399}}
 #block-views-preface-block-block .preface-1 .front {
   background-color: #5ea905; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003102}}
   #block-views-preface-block-block .preface-1 .front:before {
     font-size: 10em;
     top: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003107}}
 #block-views-preface-block-block .preface-1 .back {
   background-color: #509004; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003109}}
+  #block-views-preface-block-block .preface-1 .back a {
+    background-color: #355f03; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003111}}
+    #block-views-preface-block-block .preface-1 .back a:hover {
+      background-color: #6cc206; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003119}}
 #block-views-preface-block-block .preface-2 .front {
   background-color: #91479e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003122}}
   #block-views-preface-block-block .preface-2 .front:before {
     top: 35px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003126}}
 #block-views-preface-block-block .preface-2 .back {
   background-color: #813f8c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003128}}
+  #block-views-preface-block-block .preface-2 .back a {
+    background-color: #612f69; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003130}}
+    #block-views-preface-block-block .preface-2 .back a:hover {
+      background-color: #a14fb0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003138}}
 #block-views-preface-block-block .preface-3 .front {
   background-color: #fe7e00; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003141}}
   #block-views-preface-block-block .preface-3 .front:before {
     top: 35px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003145}}
 #block-views-preface-block-block .preface-3 .back {
   background-color: #e57100; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003147}}
+  #block-views-preface-block-block .preface-3 .back a {
+    background-color: #b25800; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\00003149}}
+    #block-views-preface-block-block .preface-3 .back a:hover {
+      background-color: #ff8b19; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\000032}}
 .view-id-news.view-display-id-block .views-field-field-image img {

@@ -55,12 +55,23 @@
         height: 100%;
       }
     }
+    .back {
+      position: relative;
+    }
     .back-inner {
       padding: 1em;
       color: white;
       font-size: .875em;
       p {
         margin: 0;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        padding: 1em 2em;
+        bottom: 1em;
+        border-radius: 5px;
       }
     }
   }
@@ -75,18 +86,11 @@
     }
     .back {
       background-color: darken(#0298ca, 5);
-      text-align: center;
-      p {
-        text-align: left;
-      }
       a {
-        color: white;
-        text-decoration: none;
-        position: absolute;
-        padding: 1em 2em;
         background-color: darken(#0298ca, 15);
-        bottom: 1em;
-        border-radius: 5px;
+        &:hover {
+          background-color: lighten(#0298ca, 5);
+        }
       }
     }
   }
@@ -102,6 +106,12 @@
     }
     .back {
       background-color: darken(#5ea905, 5);
+      a {
+        background-color: darken(#5ea905, 15);
+        &:hover {
+          background-color: lighten(#5ea905, 5);
+        }
+      }
     }
   }
 
@@ -115,6 +125,12 @@
     }
     .back {
       background-color: darken(#91479e, 5);
+      a {
+        background-color: darken(#91479e, 15);
+        &:hover {
+          background-color: lighten(#91479e, 5);
+        }
+      }
     }
   }
 
@@ -128,6 +144,12 @@
     }
     .back {
       background-color: darken(#fe7e00, 5);
+      a {
+        background-color: darken(#fe7e00, 15);
+        &:hover {
+          background-color: lighten(#fe7e00, 5);
+        }
+      }
     }
   }
 

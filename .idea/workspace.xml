@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1861564-0f80-4f65-a1b9-04db6ec69660" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/DSC07688.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/DSCF3507.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/betania.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/208x208/public/DSC07688.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/208x208/public/DSCF3507.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/208x208/public/betania.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/940x360/public/DSC07688.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/940x360/public/DSCF3507.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/940x360/public/betania.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/flexslider_full/public/DSC07688.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/flexslider_full/public/DSCF3507.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/flexslider_full/public/betania.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/DSC07688.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/DSCF3507.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/betania.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/DSC07688.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/DSCF3507.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/betania.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
     </list>
     <ignored path="larche.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,14 +21,14 @@
     <file path="/larche.layout.inc" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396134150291" ignored="false" />
     <file path="/a.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396138554707" ignored="false" />
     <file path="/larche.info" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396134441587" ignored="false" />
-    <file path="/_flexslider.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396173113044" ignored="false" />
+    <file path="/_flexslider.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396179702229" ignored="false" />
     <file path="/_footer.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396137529449" ignored="false" />
     <file path="/a.js" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396138559086" ignored="false" />
     <file path="/larche.behaviors.js" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396172807921" ignored="false" />
     <file path="/a.dummy" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396141463767" ignored="false" />
     <file path="/_news.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396168371120" ignored="false" />
     <file path="/views-view-fields--preface-block--block.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396173629071" ignored="false" />
-    <file path="/_preface-blocks.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396177725515" ignored="false" />
+    <file path="/_preface-blocks.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396180743364" ignored="false" />
     <file path="/page.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396166182663" ignored="false" />
     <file path="/html.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396166157688" ignored="false" />
     <file path="/page--front.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396166206800" ignored="false" />
@@ -106,10 +93,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.4938016">
+            <state line="219" column="25" selection-start="7855" selection-end="7855" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -167,16 +154,16 @@
       <file leaf-file-name="_flexslider.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="17" selection-start="3671" selection-end="3671" vertical-scroll-proportion="-13.32">
+            <state line="23" column="22" selection-start="462" selection-end="462" vertical-scroll-proportion="-4.8">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_preface-blocks.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_preface-blocks.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="25" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+            <state line="149" column="43" selection-start="2804" selection-end="2804" vertical-scroll-proportion="0.65451056">
               <folding />
             </state>
           </provider>
@@ -218,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/page-front.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/system/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/system/page.tpl.php" />
@@ -230,9 +216,10 @@
         <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/base/_typography.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-unformatted--preface-block--block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/js/larche.behaviors.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/layouts/larche/larche.layout.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--preface-block--block.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" />
       </list>
     </option>
@@ -974,7 +961,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2094647" sideWeight="0.671521" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.321955" sideWeight="0.671521" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1113,13 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="17" selection-start="3671" selection-end="3671" vertical-scroll-proportion="-13.32">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/layouts/larche/larche.layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="12" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
@@ -1145,16 +1125,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss">
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="25" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+        <state line="219" column="25" selection-start="7855" selection-end="7855" vertical-scroll-proportion="-15.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.4938016">
+        <state line="23" column="22" selection-start="462" selection-end="462" vertical-scroll-proportion="-4.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="43" selection-start="2804" selection-end="2804" vertical-scroll-proportion="0.65451056">
           <folding />
         </state>
       </provider>
