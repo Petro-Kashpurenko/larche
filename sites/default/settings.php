@@ -217,7 +217,7 @@ $databases = array (
     array (
       'database' => 'larche',
       'username' => 'root',
-      'password' => 'qazwsx',
+      'password' => 'root',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
