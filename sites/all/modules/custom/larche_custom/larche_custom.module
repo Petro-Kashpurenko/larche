@@ -1,23 +1,8 @@
 <?php
 /**
  * @file
- * Custom Advice Group module.
+ * Custom Larche module.
  */
-
-/**
- * Implements hook_init().
- */
-function larche_custom_init() {
-  // drupal_add_js(drupal_get_path('module', 'larche_custom') . '/js/advice.js');
-//       $node_obj = node_load(21);
-    
-//     // Team member attributes.
-//     $news_title = $node_obj->title;
-//     $news_picture = $node_obj->field_image[LANGUAGE_NONE][0]['uri'];
-//     $news_body = $node_obj->body[LANGUAGE_NONE][0]['value'];
-//     $news_created = $node_obj->created;
-// var_dump($node_obj->created);
-}
 
 /**
  * Implements hook_menu().
@@ -50,7 +35,7 @@ function larche_custom_modal_callback($nid, $js = FALSE) {
     
     $node_obj = node_load($nid);
     
-    // Team member attributes.
+    // News attributes.
     $news_title = $node_obj->title;
     $news_picture = $node_obj->field_image[LANGUAGE_NONE][0]['uri'];
     $news_body = $node_obj->body[LANGUAGE_NONE][0]['value'];
@@ -132,7 +117,6 @@ function larche_custom_preprocess_views_view_field(&$vars) {
                     )),
                   ),
                 ), 'setting');
-                ctools_add_css('shop_now_modal', 'larche_custom');
               }
               break;
               
