@@ -28,7 +28,7 @@
 
   <div class="l-header-compensation"></div>
 
-  <?php if ($page['slider']): ?>
+  <?php if (isset($page['slider'])): ?>
   <div class="l-slider-wrapper">
     <div class="l-slider">
       <?php print render($page['slider']); ?>
@@ -60,7 +60,7 @@
     <?php print render($page['sidebar_second']); ?>
   </div>
 
-  <?php if ($page['column_first'] || $page['column_second']): ?>
+  <?php if (isset($page['column_first']) || isset($page['column_second'])): ?>
   <div class="l-columns">
     <div class="l-column-first">
       <?php print render($page['column_first']); ?>

@@ -1,3 +1,72 @@
+@font-face {
+  font-family: 'larche-icon-font';
+  src:url('../fonts/larche/larche-icon-font.eot?5u6y1m');
+  src:url('../fonts/larche/larche-icon-font.eot?#iefix5u6y1m') format('embedded-opentype'),
+  url('../fonts/larche/larche-icon-font.woff?5u6y1m') format('woff'),
+  url('../fonts/larche/larche-icon-font.ttf?5u6y1m') format('truetype'),
+  url('../fonts/larche/larche-icon-font.svg?5u6y1m#larche-icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.larche-icon {
+  font-family: 'larche-icon-font';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="larche-icon-"], [class*=" larche-icon-"] {
+  @extend .larche-icon;
+}
+
+.larche-icon-assistant-0:before {
+  content: "\e609";
+}
+.larche-icon-assistant-1:before {
+  content: "\e60a";
+}
+.larche-icon-assistant-2:before {
+  content: "\e608";
+}
+.larche-icon-arrow-left:before {
+  content: "\e60b";
+}
+.larche-icon-arrow-right:before {
+  content: "\e60c";
+}
+.larche-icon-larche-is-0:before {
+  content: "\e601";
+}
+.larche-icon-larche-is-1:before {
+  content: "\e600";
+}
+.larche-icon-larche-is-2:before {
+  content: "\e603";
+}
+.larche-icon-larche-is-3:before {
+  content: "\e607";
+}
+.larche-icon-logo:before {
+  content: "\e602";
+}
+.larche-icon-head-deco-left:before {
+  content: "\e604";
+}
+.larche-icon-head-deco-right:before {
+  content: "\e605";
+}
+.larche-icon-read-more-cross:before {
+  content: "\e606";
+}
+
 body {
   font-family: 'Open Sans';
 }

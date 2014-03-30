@@ -1,0 +1,22 @@
+.view-id-news.view-display-id-block {
+  .views-field-field-image img {
+    float: left;
+    margin-right: 1.2em;
+  }
+  .views-field-title {
+    font-size: 1.125em;
+  }
+  .views-field-body {
+    font-size: .875em;
+  }
+  .views-field-created {
+    font-size: .875em;
+    color: #0298ca;
+  }
+  .views-field-view-node {
+    font-size: .875em;
+    a {
+      color: #0298ca;
+    }
+  }
+}

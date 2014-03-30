@@ -48,6 +48,7 @@ body {
   @include container;
 }
 .l-main,
+.l-columns,
 .l-slider {
   @include container; // Define these elements as the grid containers.
   margin-bottom: $vert-spacing-unit;
@@ -62,9 +63,11 @@ body {
 
   .l-header,
   .l-main,
+  .l-slider,
   .l-columns,
   .l-footer {
-    @include set-container-width; // Reset only the container width (elements have already been declared as containers).
+    width: 940px;
+    //@include set-container-width; // Reset only the container width (elements have already been declared as containers).
   }
 
   .l-branding {
