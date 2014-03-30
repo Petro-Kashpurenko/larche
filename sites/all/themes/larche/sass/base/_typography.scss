@@ -1,3 +1,16 @@
 body {
   font-family: 'Open Sans';
 }
+
+.clearfix {
+  @include legacy-pie-clearfix;
+}
+
+.footer-logo {
+  position: relative;
+  top: 1.2em;
+  height: 81px;
+  width: 89px;
+  background: url(../images/logo_footer.png);
+  background-size: 89px 81px;
+}

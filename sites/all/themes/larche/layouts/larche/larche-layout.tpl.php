@@ -26,7 +26,17 @@
   </header>
   </div>
 
-    <div class="l-main">
+  <div class="l-header-compensation"></div>
+
+  <?php if ($page['slider']): ?>
+  <div class="l-slider-wrapper">
+    <div class="l-slider">
+      <?php print render($page['slider']); ?>
+    </div>
+  </div>
+  <?php endif; ?>
+
+  <div class="l-main">
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
@@ -50,7 +60,21 @@
     <?php print render($page['sidebar_second']); ?>
   </div>
 
-  <footer class="l-footer" role="contentinfo">
-    <?php print render($page['footer']); ?>
-  </footer>
+  <?php if ($page['column_first'] || $page['column_second']): ?>
+  <div class="l-columns">
+    <div class="l-column-first">
+      <?php print render($page['column_first']); ?>
+    </div>
+    <div class="l-column-second">
+      <?php print render($page['column_second']); ?>
+    </div>
+  </div>
+  <?php endif; ?>
+
+  <div class="l-footer-wrapper">
+    <footer class="l-footer" role="contentinfo">
+      <div class="footer-logo"/></div>
+      <?php print render($page['footer']); ?>
+    </footer>
+  </div>
 </div>

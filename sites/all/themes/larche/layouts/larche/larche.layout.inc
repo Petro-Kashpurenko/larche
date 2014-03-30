@@ -7,10 +7,16 @@ template = larche-layout
 regions[branding]       = Branding
 regions[navigation]     = Navigation bar
 regions[header]         = Header
+
+
+regions[slider]         = Slider
+
+
+
 regions[highlighted]    = Highlighted
 
-regions[sidebar_first]  = First column
-regions[sidebar_first]  = Second column
+regions[column_first]  = First column
+regions[column_second]  = Second column
 
 regions[help]           = Help
 

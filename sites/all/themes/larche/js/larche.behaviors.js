@@ -57,4 +57,21 @@
     }
   };
 
+  Drupal.behaviors.larcheStickyHeader = {
+    attach: function (context, settings) {
+
+      window.onscroll = function (event) {
+        if($('html, body').offset().top < -100) {
+          $('.l-header-wrapper', context).css({'margin-top': '-101px'});
+          $('.l-region--navigation', context).addClass('collapsed');
+        }
+        else {
+          $('.l-header-wrapper', context).css({'margin-top': '0px'});
+          $('.l-region--navigation', context).removeClass('collapsed');
+        }
+      }
+
+    }
+  };
+
 })(jQuery);

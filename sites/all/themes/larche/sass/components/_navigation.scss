@@ -1,5 +1,5 @@
 .l-branding {
-  margin-top: 1.6em;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -11,6 +11,20 @@
 .l-header-wrapper {
   @include box-shadow(rgba(17, 17, 17, 0.4) 0px 5px 5px);
   z-index: 100;
+  @include transition-property('margin-top');
+  @include transition-duration(.25s);
+}
+
+.l-region--navigation {
+  @include transition-property(all);
+  @include transition-duration(.25s);
+  background-position: -80px 10px;
+  background-repeat: no-repeat;
+  &.collapsed {
+    background: url(../images/logo_head_small.png) 0 10px no-repeat;
+    background-size: 64px 43px;
+    padding-left: 80px;
+  }
 }
 
 #block-system-main-menu {
@@ -27,10 +41,15 @@
     display: inline-block;
     font-size: 1.125em;
     margin: .5em 1em 0;
+    &.last a {
+      color: white;
+      background-color: #fe7e00;
+      padding: .5em 2em;
+      @include border-radius(5px);
+    }
     &:hover {
       ul {
-        z-index: 1;
-        opacity: 1;
+        display: block;
       }
     }
     a {
@@ -44,11 +63,7 @@
     ul {
       @include border-radius(0 0 5px 5px);
       @include box-shadow(rgba(17, 17, 17, 0.4) 0px 3px 4px);
-      z-index: -1;
-      @include transition-property(all);
-      @include transition-duration(.2s);
-      @include transition-timing-function(ease-in);
-      opacity: 0;
+      display: none;
       position: absolute;
       left: -10px;
       width: 960px;
