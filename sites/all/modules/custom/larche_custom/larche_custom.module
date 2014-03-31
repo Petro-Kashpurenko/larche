@@ -4,6 +4,18 @@
  * Custom Larche module.
  */
 
+// Defining constants.
+define('APPLY_FORM_NID', 34);
+
+ /**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function larche_custom_form_webform_client_form_34_alter(&$form, &$form_state, $form_id) {
+  $form['submitted']['position']['#type'] = 'hidden';
+  $node = node_load(arg(1));
+  $form['submitted']['position']['#value'] = $node->title;
+}
+
 /**
  * Implements hook_menu().
  */
@@ -15,6 +27,13 @@ function larche_custom_menu() {
     'page arguments' => array(2, 1),
     'access callback' => TRUE,
     'type' => MENU_CALLBACK,
+  );
+
+  $items['apply/%'] = array(
+    'page callback' => 'larche_apply_callback',
+    'page arguments' => array(1),
+    'access callback' => TRUE,
+    'type' => MENU_NORMAL_ITEM,
   );
 
   return $items;
@@ -39,14 +58,14 @@ function larche_custom_modal_callback($nid, $js = FALSE) {
     $news_title = $node_obj->title;
     $news_picture = $node_obj->field_image[LANGUAGE_NONE][0]['uri'];
     $news_body = $node_obj->body[LANGUAGE_NONE][0]['value'];
-    $news_created = date("d.m.y", $node_obj->created);
+    $news_created = date("d.m.Y", $node_obj->created);
 
     $form['#attributes'] = array('class' => array('news-popup'));
 
     $form['picture'] = array(
       '#type' => 'item',
       '#markup' => theme('image_style', array(
-        'style_name' => '800x800',
+        'style_name' => '400x400',
         'path' => $news_picture,
         'attributes' => array('class' => 'news-picture'),
       )),
@@ -87,7 +106,7 @@ function larche_custom_preprocess_views_view_field(&$vars) {
   switch ($vars['view']->name) {
     case 'news':
       switch ($vars['view']->current_display) {
-        case 'block':
+        case 'page_1':
           switch ($vars['field']->field) {
             case 'nothing':
               if (!empty($vars['output'])) {
@@ -125,4 +144,16 @@ function larche_custom_preprocess_views_view_field(&$vars) {
       }
       break;
   }
+}
+
+
+/**
+ * Implements larche_apply_callback().
+ */
+function larche_apply_callback($nid) {
+  $node = node_load(APPLY_FORM_NID);
+  webform_node_view($node,'full');
+  $node_rendered = theme_webform_view($node->content);
+
+  return $node_rendered;
 }

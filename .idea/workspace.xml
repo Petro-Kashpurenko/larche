@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1861564-0f80-4f65-a1b9-04db6ec69660" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" />
-    </list>
+    <list default="true" id="b1861564-0f80-4f65-a1b9-04db6ec69660" name="Default" comment="" />
     <ignored path="larche.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1396124032427" ignored="false" />
@@ -937,7 +933,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="60" width="1335" height="738" extended-state="1" />
+    <frame x="60" y="60" width="1335" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
