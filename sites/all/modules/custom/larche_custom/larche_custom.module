@@ -6,6 +6,7 @@
 
 // Defining constants.
 define('APPLY_FORM_NID', 34);
+define('DONATE_FORM_NID', 35);
 
  /**
  * Implements hook_form_FORM_ID_alter().
@@ -34,6 +35,41 @@ function larche_custom_menu() {
     'page arguments' => array(1),
     'access callback' => TRUE,
     'type' => MENU_NORMAL_ITEM,
+  );
+
+  $items['donate/%'] = array(
+    'page callback' => 'larche_egateway_form',
+    'page arguments' => array(1),
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+
+  $items['admin/donation'] = array(
+    'title' => 'Donation',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('larche_donate_admin_form'),
+    'access callback' => TRUE,
+    'weight' => 99,
+  );
+
+  $items['admin/donation/settings'] = array(
+    'title' => 'Donation settings',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => -10,
+  );
+
+  $items['admin/donation/list'] = array(
+    'title' => 'Donation list',
+    'page callback' => 'larche_donation_list',
+    'access callback' => TRUE,
+    'type' => MENU_LOCAL_TASK,
+    'weight' => -9,
+  );
+
+  $items['donation/backref'] = array(
+    'page callback' => 'larche_backref_process',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
   );
 
   return $items;
@@ -156,4 +192,386 @@ function larche_apply_callback($nid) {
   $node_rendered = theme_webform_view($node->content);
 
   return $node_rendered;
+}
+
+/**
+ * Administer donation params page.
+ */
+function larche_donate_admin_form() {
+  // Get current eGateway params from db.
+  $params = variable_get('egateway_params');
+
+  $form['action'] = array(
+    '#type' => 'textfield',
+    '#title' => t('ACTION'),
+    '#default_value' => $params ? $params['action'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  $form['currency'] = array(
+    '#type' => 'textfield',
+    '#title' => t('CURRENCY (default "UAH")'),
+    '#default_value' => $params ? $params['currency'] : 'UAH',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  $form['description'] = array(
+    '#type' => 'textfield',
+    '#title' => t('DESC'),
+    '#default_value' => $params ? $params['description'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  $form['merch_name'] = array(
+    '#type' => 'textfield',
+    '#title' => t('MERCH_NAME'),
+    '#default_value' => $params ? $params['merch_name'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  $form['merch_url'] = array(
+    '#type' => 'textfield',
+    '#title' => t('MERCH_URL'),
+    '#default_value' => $params ? $params['merch_url'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  $form['merchant'] = array(
+    '#type' => 'textfield',
+    '#title' => t('MERCHANT'),
+    '#default_value' => $params ? $params['merchant'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  $form['terminal'] = array(
+    '#type' => 'textfield',
+    '#title' => t('TERMINAL'),
+    '#default_value' => $params ? $params['terminal'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  $form['trtype'] = array(
+    '#type' => 'textfield',
+    '#title' => t('TRTYPE (default "01")'),
+    '#default_value' => $params ? $params['trtype'] : '01',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  // @todo find out should it always be UA.
+  $form['country'] = array(
+    '#type' => 'textfield',
+    '#title' => t('COUNTRY (default "UA")'),
+    '#default_value' => $params ? $params['country'] : 'UA',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  $form['merch_gmt'] = array(
+    '#type' => 'textfield',
+    '#title' => t('MERCH_GMT (default empty)'),
+    '#default_value' => $params ? $params['merch_gmt'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+  );
+
+  $form['nonce'] = array(
+    '#type' => 'textfield',
+    '#title' => t('NONCE (default empty)'),
+    '#default_value' => $params ? $params['nonce'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+  );
+
+  $form['backref'] = array(
+    '#type' => 'textfield',
+    '#title' => t('BACKREF'),
+    '#default_value' => $params ? $params['backref'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+  $form['p_sign'] = array(
+    '#type' => 'textfield',
+    '#title' => t('P_SIGN (default empty)'),
+    '#default_value' => $params ? $params['p_sign'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+  );
+
+  $form['lang'] = array(
+    '#type' => 'textfield',
+    '#title' => t('LANG (ukr|eng|rus)'),
+    '#default_value' => $params ? $params['lang'] : '',
+    '#size' => 60,
+    '#maxlength' => 255,
+    '#required' => TRUE,
+  );
+
+   $form['actions']['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Submit'),
+    '#weight' => 15,
+    '#submit' => array('larche_donate_admin_form_submit'),
+   );
+
+  return $form;
+}
+
+/**
+ * Submit handler for larche_donate_admin_form.
+ */
+function larche_donate_admin_form_submit($form, &$form_state){
+  $params = array(
+    'action'      => $form_state['values']['action'],
+    'currency'    => $form_state['values']['currency'],
+    'description' => $form_state['values']['description'],
+    'merch_name'  => $form_state['values']['merch_name'],
+    'merch_url'   => $form_state['values']['merch_url'],
+    'merchant'    => $form_state['values']['merchant'],
+    'terminal'    => $form_state['values']['terminal'],
+    'trtype'      => $form_state['values']['trtype'],
+    'country'     => $form_state['values']['country'],
+    'merch_gmt'   => $form_state['values']['merch_gmt'],
+    'nonce'       => $form_state['values']['nonce'],
+    'backref'     => $form_state['values']['backref'],
+    'p_sign'      => $form_state['values']['p_sign'],
+    'lang'        => $form_state['values']['lang'],
+  );
+
+  variable_set('egateway_params', $params);
+}
+
+/**
+ * Save an donation request in the database.
+ */
+function larche_custom_donation_insert($entry) {
+  $return_value = NULL;
+  try {
+    $return_value = db_insert('larche_custom_table')
+                    ->fields($entry)
+                    ->execute();
+  }
+  catch (Exception $e) {
+    drupal_set_message(t('db_insert failed. Message = %message, query= %query',
+      array('%message' => $e->getMessage(), '%query' => $e->query_string)), 'error');
+  }
+  return $return_value;
+}
+
+/**
+ * Update an donation request in the database.
+ */
+function larche_custom_donation_update($entry) {
+  try {
+    $count = db_update('larche_custom_table')
+          ->fields($entry)
+          ->condition('sid', $entry['sid'])
+          ->execute();
+  }
+  catch (Exception $e) {
+    drupal_set_message(t('db_update failed. Message = %message, query= %query',
+      array('%message' => $e->getMessage(), '%query' => $e->query_string)), 'error');
+  }
+  return $count;
+}
+
+/**
+ * Read from the database using a filter array.
+ */
+function larche_custom_donation_load() {
+  // Read all fields from the idevels table.
+  $select = db_select('larche_custom_table', 'l');
+  $select->fields('l');
+
+  // Return the result in object format.
+  return $select->execute()->fetchAll();
+}
+
+/**
+ * Implements hook_webform_submission_insert().
+ */
+function larche_custom_webform_submission_insert($node, $submission) {
+  if ($node->nid == DONATE_FORM_NID) {
+    $entry = array(
+      'sid' => $submission->sid,
+      'amount_init' => $submission->data[1]['value'][0],
+      'email' => $submission->data[2]['value'][0],
+      // 'uid' => $submission->uid,
+      // 'name' => $submission->data[3]['value'][0],
+      // 'submitted' => $submission->submitted,
+      // 'remote_addr' => $submission->remote_addr,
+    );
+
+    $query = larche_custom_donation_insert($entry);
+
+    if ($query) {
+      drupal_goto('donate/' . $submission->sid);
+    }
+    else {
+      drupal_goto('<front>');
+    }    
+  }
+}
+
+/**
+ * Callback after Donate form submission.
+ */
+function larche_egateway_form($sid) {
+  
+  // Check whether we have such tariff in node table.
+  $select = db_query('SELECT l.sid, l.action, l.amount_init, l.email
+    FROM {larche_custom_table} l
+    WHERE l.sid = :sid', array(
+      ':sid' => $sid,
+    )
+  );
+
+  // Return the result in array format.
+  $result = $select->fetchAll(PDO::FETCH_ASSOC);
+
+  if (!empty($result) && empty($result[0]['action'])) {
+    // Get current eGateway params from db.
+    $params = variable_get('egateway_params');
+
+    // Convert server time to GMT.
+    $local = time();
+    $gmt = $local - (3 * 60 * 60);
+
+    $timestamp = date("YmdHis", $gmt);
+
+    $vars = array(
+      'action'      => $params ? $params['action'] : '',
+      'amount'      => $result[0]['amount_init'],
+      'currency'    => $params ? $params['currency'] : '',
+      'order'       => $result[0]['sid'],
+      'description' => $params ? $params['description'] : '',
+      'merch_name'  => $params ? $params['merch_name'] : '',
+      'merch_url'   => $params ? $params['merch_url'] : '',
+      'merchant'    => $params ? $params['merchant'] : '',
+      'terminal'    => $params ? $params['terminal'] : '',
+      'email'       => $result[0]['email'],
+      'trtype'      => $params ? $params['trtype'] : '',
+      'country'     => $params ? $params['country'] : '',
+      'merch_gmt'   => $params ? $params['merch_gmt'] : '',
+      'timestamp'   => $timestamp,
+      'nonce'       => $params ? $params['nonce'] : '',
+      'backref'     => $params ? $params['backref'] : '',
+      'p_sign'      => $params ? $params['p_sign'] : '',
+      'lang'        => $params ? $params['lang'] : '',
+    );
+    echo theme('request_page', array('vars' => $vars));
+    drupal_exit();
+  }
+  else {
+    drupal_goto("<front>");
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function larche_custom_theme(&$existing, &$type, &$theme, &$path) {
+  $module_path = drupal_get_path('module', 'larche_custom');
+  return array(
+    'request_page' => array(
+      'template' => 'request_page',
+      'arguments' => array('vars' => NULL),
+      'path' => $module_path . '/template',
+    ),
+  );
+}
+
+
+/**
+ * Donation list page callback.
+ */
+function larche_donation_list() {
+  $output = '';
+
+  // Get all entries in the dbtng_example table.
+  if ($entries = larche_custom_donation_load()) {
+    $rows = array();
+    foreach ($entries as $entry) {
+      // Sanitize the data before handing it off to the theme layer.
+      $rows[] = array_map('check_plain', (array) $entry);
+    }
+    // Make a table for them.
+    $header = array(
+      t('Sid'),
+      t('Amount 1'),
+      t('Email'),
+      t('Amount 2'),
+      t('Currnecy'),
+      t('Order'),
+      t('Timestamp'),
+      t('RRN'),
+      t('INT_REF'),
+      t('Approval'),
+      t('Description'),
+      t('Action'),
+    );
+
+    $output .= theme('table', array('header' => $header, 'rows' => $rows));
+  }
+  else {
+    drupal_set_message(t('No entries have been added yet.'));
+  }
+  return $output;
+}
+
+
+/**
+ * Backref callback function.
+ */
+function larche_backref_process() {
+  if (isset($_POST['ORDER'])) {
+      $select = db_query('SELECT l.sid, l.action FROM {larche_custom_table} l
+      WHERE l.sid = :sid', array(
+        ':sid' => $_POST['ORDER'],
+      )
+    );
+
+    // Return the result in array format.
+    $result = $select->fetchAll(PDO::FETCH_ASSOC);
+
+    if (!empty($result) && empty($result[0]['action'])) {
+      // @todo remove ORDER from table.
+      // @todo check charset=iso-8859-1.
+      $entry = array(
+        'sid'         => isset($_POST['ORDER']) ? $_POST['ORDER'] : '',
+        'amount'      => isset($_POST['AMOUNT']) ? $_POST['AMOUNT'] : '',
+        'currency'    => isset($_POST['CURRENCY']) ? $_POST['CURRENCY'] : '',
+        'timestamp'   => isset($_POST['TIMESTAMP']) ? $_POST['TIMESTAMP'] : '',
+        'rrn'         => isset($_POST['RRN']) ? $_POST['RRN'] : '',
+        'int_ref'     => isset($_POST['INT_REF']) ? $_POST['INT_REF'] : '',
+        'approval'    => isset($_POST['APPROVAL']) ? $_POST['APPROVAL'] : '',
+        'description' => isset($_POST['DESC']) ? $_POST['DESC'] : '',
+        'action'      => isset($_POST['ACTION']) ? $_POST['ACTION'] : '',
+      );
+
+      larche_custom_donation_update($entry);
+    }
+    else {
+      watchdog('larche_custom', 'Somebody tries to send bogus request to Backref.', array(), WATCHDOG_NOTICE);
+    }
+  }
+  drupal_goto("<front>");
 }

@@ -1,0 +1,102 @@
+<?php
+/**
+ * @file
+ * Install and uninstall tables for the larche_custom module.
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function larche_custom_schema() {
+
+  $schema['larche_custom_table'] = array(
+    'description' => 'Stores donation entries.',
+    'fields' => array(
+      'sid'  => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+        'description' => 'Submission ID.',
+      ),
+      'amount_init' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Initial amount.',
+      ),
+      'email' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Email of the person.',
+      ),
+      'amount' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Received amount.',
+      ),
+      'currency' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Currency.',
+      ),
+      'order' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Order (SID).',
+      ),
+      'timestamp' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Timestamp.',
+      ),
+      'rrn' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'RRN.',
+      ),
+      'int_ref' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'INT_REF.',
+      ),
+      'approval' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'APPROVAL.',
+      ),
+      'description' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Payment description.',
+      ),
+      'action' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Action.',
+      ),
+    ),
+    'primary key' => array('sid'),
+  );
+
+  return $schema;
+}
