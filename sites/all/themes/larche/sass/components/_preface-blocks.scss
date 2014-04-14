@@ -20,7 +20,7 @@
     font-size: 1.37em;
   }
   .flipper-container {
-    @include span-columns(3, 12);
+    @include span(3 of 12);
     height: 230px;
     @include perspective(1000);
 

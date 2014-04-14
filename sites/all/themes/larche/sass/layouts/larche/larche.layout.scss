@@ -11,6 +11,7 @@ body {
 
 @import "susy";
 
+
 // Susy Variables
 
 // Set consistent vertical and horizontal spacing units.
@@ -71,10 +72,10 @@ body {
   }
 
   .l-branding {
-    @include span-columns(12 omega, 12); // Span 4 out of 12 columns.
+    @include span(last 12 of 12); // Span 4 out of 12 columns.
   }
   .l-region--header{
-    @include span-columns(12 omega, 12); // Span the last (omega) 8 columns of 12.
+    @include span(last 12 of 12); // Span the last (omega) 8 columns of 12.
   }
   .l-region--navigation {
     clear: both;
@@ -84,11 +85,11 @@ body {
   .has-sidebar-second,
   .has-two-sidebars {
     .l-content {
-      @include span-columns(8, 12); // Span 8 out of 12 columns.
+      @include span(8 of 12); // Span 8 out of 12 columns.
     }
     .l-region--sidebar-first,
     .l-region--sidebar-second {
-      @include span-columns(4 omega, 12); // Span the last (omega) 4 columns of 12.
+      @include span(last 4 of 12); // Span the last (omega) 4 columns of 12.
     }
     .l-region--sidebar-second {
       clear: right;
@@ -96,9 +97,9 @@ body {
   }
 
   .l-column-first, .l-column-second {
-    @include span-columns(6, 12);
+    @include span(6 of 12);
   }
 
   .l-column-second {
-    @include omega;
+    @include last;
   }

@@ -4,7 +4,6 @@
   src: url("../fonts/larche/larche-icon-font.eot?#iefix5u6y1m") format("embedded-opentype"), url("../fonts/larche/larche-icon-font.woff?5u6y1m") format("woff"), url("../fonts/larche/larche-icon-font.ttf?5u6y1m") format("truetype"), url("../fonts/larche/larche-icon-font.svg?5u6y1m#larche-icon-font") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/base\/_typography\.scss}line{font-family:\0000312}}
 .larche-icon, [class^="larche-icon-"], [class*=" larche-icon-"], #block-views-preface-block-block .flipper-container .front:before {
   font-family: 'larche-icon-font';
@@ -77,7 +76,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/base\/_typography\.scss}line{font-family:\0000374}}
 .clearfix {
   *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.4\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/masterpoint\/\.rvm\/gems\/ruby-2\.1\.1\/gems\/compass-core-1\.0\.0\.alpha\.19\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000322}}
   .clearfix:after {
     content: "\0020";
     display: block;
@@ -107,28 +106,28 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000311}}
 .l-header-wrapper {
-  -webkit-box-shadow: rgba(17, 17, 17, 0.4) 0px 5px 5px;
   -moz-box-shadow: rgba(17, 17, 17, 0.4) 0px 5px 5px;
+  -webkit-box-shadow: rgba(17, 17, 17, 0.4) 0px 5px 5px;
   box-shadow: rgba(17, 17, 17, 0.4) 0px 5px 5px;
   z-index: 100;
-  -webkit-transition-property: margin-top;
-  -moz-transition-property: margin-top;
-  -o-transition-property: margin-top;
-  transition-property: margin-top;
-  -webkit-transition-duration: 0.25s;
+  -moz-transition-property: "margin-top";
+  -o-transition-property: "margin-top";
+  -webkit-transition-property: "margin-top";
+  transition-property: "margin-top";
   -moz-transition-duration: 0.25s;
   -o-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
   transition-duration: 0.25s; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000318}}
 .l-region--navigation {
-  -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
+  -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 0.25s;
   -moz-transition-duration: 0.25s;
   -o-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
   transition-duration: 0.25s;
   background-position: -80px 10px;
   background-repeat: no-repeat; }
@@ -157,10 +156,8 @@ body {
     color: white;
     background-color: #fe7e00;
     padding: .5em 2em;
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000351}}
   #block-system-main-menu > ul > li:hover ul {
@@ -175,13 +172,11 @@ body {
       color: #0298ca; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000363}}
   #block-system-main-menu > ul > li ul {
-    -webkit-border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
-    -ms-border-radius: 0 0 5px 5px;
-    -o-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0;
     border-radius: 0 0 5px 5px;
-    -webkit-box-shadow: rgba(17, 17, 17, 0.4) 0px 3px 4px;
     -moz-box-shadow: rgba(17, 17, 17, 0.4) 0px 3px 4px;
+    -webkit-box-shadow: rgba(17, 17, 17, 0.4) 0px 3px 4px;
     box-shadow: rgba(17, 17, 17, 0.4) 0px 3px 4px;
     display: none;
     position: absolute;
@@ -205,16 +200,13 @@ body {
       width: 23.72881%;
       float: left;
       margin-right: 1.69492%;
-      display: inline;
       margin-top: 1.5em;
       margin-bottom: 1.5em;
       list-style: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000389}}
       #block-system-main-menu > ul > li ul li:nth-child(4n) {
         float: right;
-        margin-right: 0;
-        #margin-left: -1em;
-        display: inline; }
+        margin-right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000392}}
       #block-system-main-menu > ul > li ul li:nth-child(5n) {
         clear: left; }
@@ -235,7 +227,7 @@ body {
  */
 /* Browser Resets
 *********************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000314}}
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
@@ -250,7 +242,7 @@ body {
 .l-slider-wrapper {
   background-color: #1BACAD; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\0000329}}
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -320,9 +312,9 @@ html[xmlns] .slides {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003104}}
 .flex-viewport {
   max-height: 2000px;
-  -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
   transition: all 1s ease; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003109}}
@@ -357,9 +349,9 @@ html[xmlns] .slides {
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
-  -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_flexslider\.scss}line{font-family:\00003143}}
@@ -523,14 +515,12 @@ html[xmlns] .slides {
   position: relative;
   height: 100%;
   width: 100%;
-  -webkit-transition-duration: 0.6s;
   -moz-transition-duration: 0.6s;
   -o-transition-duration: 0.6s;
+  -webkit-transition-duration: 0.6s;
   transition-duration: 0.6s;
-  -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\000039}}
 #block-views-preface-block-block .front, #block-views-preface-block-block .back {
@@ -539,10 +529,8 @@ html[xmlns] .slides {
   left: 0;
   height: 100%;
   width: 100%;
-  -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000318}}
 #block-views-preface-block-block #larche-is {
@@ -553,19 +541,14 @@ html[xmlns] .slides {
   width: 23.72881%;
   float: left;
   margin-right: 1.69492%;
-  display: inline;
   height: 230px;
-  -webkit-perspective: 1000;
   -moz-perspective: 1000;
-  -ms-perspective: 1000;
-  -o-perspective: 1000;
+  -webkit-perspective: 1000;
   perspective: 1000; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000327}}
   #block-views-preface-block-block .flipper-container:hover .flipper {
-    -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000330}}
   #block-views-preface-block-block .flipper-container .front {
@@ -573,15 +556,11 @@ html[xmlns] .slides {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000333}}
   #block-views-preface-block-block .flipper-container:nth-child(4n) {
     float: right;
-    margin-right: 0;
-    #margin-left: -1em;
-    display: inline; }
+    margin-right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000337}}
 #block-views-preface-block-block .back {
-  -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_preface-blocks\.scss}line{font-family:\0000343}}
 #block-views-preface-block-block .flipper-container .front {

@@ -81,13 +81,13 @@
         }
       }
       li {
-        @include span-columns(3, 12); // Span 4 out of 12 columns.
+        @include span(3 of 12); // Span 4 out of 12 columns.
         //padding-left: 1.5em;
         margin-top: 1.5em;
         margin-bottom: 1.5em;
         list-style: none;
         &:nth-child(4n) {
-          @include omega;
+          @include last;
         }
         &:nth-child(5n) {
           clear: left;
