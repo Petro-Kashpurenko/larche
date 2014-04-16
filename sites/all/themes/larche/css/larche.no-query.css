@@ -657,26 +657,50 @@ html[xmlns] .slides {
     #block-views-preface-block-block .preface-3 .back a:hover {
       background-color: #ff8b19; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\000032}}
-.view-id-news.view-display-id-block .views-field-field-image img {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\000033}}
+.page-news .view-id-news.view-display-id-block .views-field-field-image img {
   float: left;
   margin-right: 1.2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\000036}}
-.view-id-news.view-display-id-block .views-field-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\000037}}
+.page-news .view-id-news.view-display-id-block .views-field-title {
   font-size: 1.125em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\000039}}
-.view-id-news.view-display-id-block .views-field-body {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000310}}
+.page-news .view-id-news.view-display-id-block .views-field-body {
   font-size: .875em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000312}}
-.view-id-news.view-display-id-block .views-field-created {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000313}}
+.page-news .view-id-news.view-display-id-block .views-field-created {
   font-size: .875em;
   color: #0298ca; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000316}}
-.view-id-news.view-display-id-block .views-field-view-node {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000317}}
+.page-news .view-id-news.view-display-id-block .views-field-view-node {
   font-size: .875em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000318}}
-  .view-id-news.view-display-id-block .views-field-view-node a {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000319}}
+  .page-news .view-id-news.view-display-id-block .views-field-view-node a {
     color: #0298ca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000325}}
+.page-news h1, .page-news h2, .page-news h3 {
+  color: #0298ca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000331}}
+.page-news .view-content img {
+  width: 155px;
+  height: 155px;
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000337}}
+.page-news .views-field-field-image {
+  float: left;
+  margin-right: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000343}}
+.page-news .views-field-created, .page-news .views-field-nothing {
+  font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000346}}
+.page-news .views-field-title {
+  font-size: 1.5em;
+  color: #0298ca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000350}}
+.page-news .views-row {
+  font-family: 'Open Sans light';
+  font-size: 14px;
+  min-height: 170px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 .l-footer-wrapper {
