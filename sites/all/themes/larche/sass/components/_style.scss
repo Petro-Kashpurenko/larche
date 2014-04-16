@@ -1,0 +1,15 @@
+ .l-columns {
+  h2, h3 {
+    color: $blue;
+    font-size: 1.5em;
+    &:after {
+      content: "";
+      border-bottom: 1px solid #c8c8c8;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 40px;
+    }
+  }
+}
+

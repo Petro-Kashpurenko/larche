@@ -1,3 +1,38 @@
 .l-footer-wrapper {
+  height: 350px;
   background-color: #0298ca;
+  color: $white;
+  font-family: open sans semibold;
+  font-size: 0.875em;
+  a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+      color: blue;
+    }
+  }
+  .footer-logo {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .l-region, .l-region--footer {
+    display: inline-block;
+    margin-left: 120px;
+  }
+  #block-block-1, #block-block-2 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 40px;
+    .block__content p:before {
+      content: "";
+      border-left: 1px solid $white;
+      height: 70%;
+      position: absolute;
+      left: -5px;
+    }
+  }
+}
+#block-block-3 {
+  padding-top: 40px;
+  padding-left: 15px;
 }
