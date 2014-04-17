@@ -682,21 +682,23 @@ html[xmlns] .slides {
   color: #0298ca; }
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000331}}
 .page-news .view-content img {
-  width: 155px;
-  height: 155px;
+  max-width: 155px;
+  max-height: 155px;
   display: inline-block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000337}}
 .page-news .views-field-field-image {
   float: left;
-  margin-right: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000343}}
+  margin-right: 25px;
+  width: 155px;
+  height: 155px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000345}}
 .page-news .views-field-created, .page-news .views-field-nothing {
   font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000348}}
 .page-news .views-field-title {
   font-size: 1.5em;
   color: #0298ca; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_news\.scss}line{font-family:\0000352}}
 .page-news .views-row {
   font-family: 'Open Sans light';
   font-size: 14px;
@@ -754,3 +756,31 @@ html[xmlns] .slides {
     position: absolute;
     left: 0;
     top: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000316}}
+.view-content .views-field-body {
+  font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000319}}
+.view-content .views-field-title {
+  font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000322}}
+.view-content .views-field-created {
+  color: #0298ca;
+  font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_front\.scss}line{font-family:\000032}}
+.front .views-field-field-image {
+  float: left;
+  margin-right: 25px;
+  width: 105px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_front\.scss}line{font-family:\000039}}
+.front .l-column-second .view-content a {
+  width: 132px;
+  min-height: 32px;
+  background-color: #0298ca;
+  border-radius: 3px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px; }

@@ -1,0 +1,24 @@
+.front {
+  .views-field-field-image{
+    float: left;
+    margin-right: 25px;
+    width: 105px;
+  }
+  .l-column-second {
+    .view-content {
+      a {
+       width: 132px;
+       min-height: 32px;
+       background-color: $blue; 
+       border-radius: 3px;
+       display: block;
+       color: $white;
+       text-decoration: none;
+       text-align: center;
+       font-size: 14px;
+     }
+   }
+ }
+
+}
+

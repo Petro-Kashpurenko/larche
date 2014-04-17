@@ -29,14 +29,16 @@
 //Image floating
 .view-content {
   img {
-    width: 155px;
-    height: 155px;
+    max-width: 155px;
+    max-height: 155px;
     display: inline-block;
   }
 }
 .views-field-field-image{
   float: left;
   margin-right: 25px;
+  width: 155px;
+  height: 155px;
 }
 
 
@@ -52,10 +54,7 @@
   font-size: 14px;
   min-height: 170px;
   &:after {
-    // content: "";
-    // border-bottom: 1px solid #c8c8c8;
-    // width: 100%;
-    // position: absolute;
+   
   }
 }
 }
