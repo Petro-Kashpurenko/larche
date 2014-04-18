@@ -1,0 +1,107 @@
+.page-larche-map{
+  font-family: open sans light;
+  .view-larche-map {
+    position: relative;
+    background: url(../images/map.png) no-repeat;
+    background-size: 940px 508px;
+    width: 940px;
+    height: 508px;
+  }
+  .view-content {
+    div {
+      background: url(../images/marker.png) no-repeat;
+      background-size: 60px 84px;
+      width: 60px;
+      height:84px;
+    }
+    ul {
+      display: none;
+      background-color: $white;
+      width: 130px;
+      position: absolute;
+      padding: 10px 15px;
+      top: -25px;
+      left: 70px;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: -14px;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent; 
+        border-right: 15px solid white; 
+      }
+      @include box-shadow(0px 2px 4px 0px #8C8C8C);
+      li, a {
+        //color: #333333;
+        color: $grey;
+        text-decoration: none;
+        list-style: none;
+        width: 100%;
+        font-size: 14px;
+        font-family: open sans light;
+        &:hover {
+          color: #333333
+        }
+      }
+    }
+    h3 {
+      position: absolute;
+      bottom: -35px;
+      color: white;
+      font-size: 14px;
+      text-align: center;
+      width: 100%;
+    }
+  }  
+
+  .Africa {
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    &:hover {
+      ul {display: block;}
+    }
+  }
+  .America {
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    &:hover {
+      ul {display: block;}
+    }
+  }
+  .Europe {
+    left: 500px;
+    top: 70px;
+    position: absolute;
+    &:hover {
+      ul {display: block;}
+    }
+  }
+  .Australia {
+    top: 300px;
+    left: 750px;
+    position: absolute;
+    &:hover {
+      ul {display: block;}
+    }
+  }
+  .Asia {
+    position: absolute;
+    top: 80px;
+    left: 740px;
+    &:hover {
+      ul {display: block;}
+    }
+  }
+  #block-block-4 {
+    .block__title {
+      color: $blue;
+    }
+    .block__content {
+      font-size: 14px;
+      font-family: Open sans light;
+    }
+  }
+}
