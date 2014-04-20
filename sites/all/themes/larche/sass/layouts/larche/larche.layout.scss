@@ -47,9 +47,6 @@ $susy: (
 
 @include layout($susy);
 
-//$container-style: magic;
-//$container-width: 960px;
-
 body {
   margin: 0;
 }
@@ -89,12 +86,10 @@ body {
 
 .l-branding {
   @include span(12);
-  // Span 4 out of 12 columns.
 }
 
 .l-region--header {
   @include span(12);
-  // Span the last (omega) 8 columns of 12.
 }
 
 .l-region--navigation {
@@ -106,12 +101,10 @@ body {
 .has-two-sidebars {
   .l-content {
     @include span(8);
-    // Span 8 out of 12 columns.
   }
   .l-region--sidebar-first,
   .l-region--sidebar-second {
     @include span(last 4);
-    // Span the last (omega) 4 columns of 12.
   }
   .l-region--sidebar-second {
     clear: right;

@@ -1,5 +1,5 @@
 .l-footer-wrapper {
-  height: 350px;
+  //height: 350px;
   background-color: #0298ca;
   color: $white;
   font-family: open sans semibold;
@@ -23,12 +23,15 @@
     display: inline-block;
     margin-top: 40px;
     margin-left: 40px;
-    .block__content p:before {
-      content: "";
-      border-left: 1px solid $white;
-      height: 70%;
-      position: absolute;
-      left: -5px;
+    .block__content {
+      position: relative;
+      &:before {
+        content: "";
+        border-left: 1px solid $white;
+        height: 100%;
+        position: absolute;
+        left: -5px;
+      }
     }
   }
 }

@@ -703,7 +703,6 @@ html[xmlns] .slides {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 .l-footer-wrapper {
-  height: 350px;
   background-color: #0298ca;
   color: white;
   font-family: open sans semibold;
@@ -729,14 +728,17 @@ html[xmlns] .slides {
     margin-top: 40px;
     margin-left: 40px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000326}}
-    .l-footer-wrapper #block-block-1 .block__content p:before, .l-footer-wrapper #block-block-2 .block__content p:before {
-      content: "";
-      border-left: 1px solid white;
-      height: 70%;
-      position: absolute;
-      left: -5px; }
+    .l-footer-wrapper #block-block-1 .block__content, .l-footer-wrapper #block-block-2 .block__content {
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000328}}
+      .l-footer-wrapper #block-block-1 .block__content:before, .l-footer-wrapper #block-block-2 .block__content:before {
+        content: "";
+        border-left: 1px solid white;
+        height: 100%;
+        position: absolute;
+        left: -5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000338}}
 #block-block-3 {
   padding-top: 40px;
   padding-left: 15px; }
