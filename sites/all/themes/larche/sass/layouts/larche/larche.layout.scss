@@ -7,10 +7,10 @@
 
 body {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 @import "susy";
-
 
 // Susy Variables
 
@@ -18,14 +18,37 @@ body {
 $vert-spacing-unit: 20px;
 $horz-spacing-unit: 20px;
 
-// Define Susy grid variables mobile first.
-$total-columns: 12;
-$column-width: 60px;
-$gutter-width: $horz-spacing-unit;
-$grid-padding: 10px;
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: auto,
+  container-position: center,
+  columns: 12,
+  gutters: 20px/60px,
+  column-width: 60px,
+  global-box-sizing: content-box,
+  last-flow: to,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);
+
+@include layout($susy);
 
 //$container-style: magic;
-$container-width: 960px;
+//$container-width: 960px;
 
 body {
   margin: 0;
@@ -48,10 +71,12 @@ body {
 .l-footer {
   @include container;
 }
+
 .l-main,
 .l-columns,
 .l-slider {
-  @include container; // Define these elements as the grid containers.
+  @include container;
+  // Define these elements as the grid containers.
   margin-bottom: $vert-spacing-unit;
 }
 
@@ -62,44 +87,47 @@ body {
   margin-bottom: $vert-spacing-unit;
 }
 
-  .l-header,
-  .l-main,
-  .l-slider,
-  .l-columns,
-  .l-footer {
-    width: 940px;
-    //@include set-container-width; // Reset only the container width (elements have already been declared as containers).
-  }
+.l-branding {
+  @include span(12);
+  // Span 4 out of 12 columns.
+}
 
-  .l-branding {
-    @include span(last 12 of 12); // Span 4 out of 12 columns.
-  }
-  .l-region--header{
-    @include span(last 12 of 12); // Span the last (omega) 8 columns of 12.
-  }
-  .l-region--navigation {
-    clear: both;
-  }
+.l-region--header {
+  @include span(12);
+  // Span the last (omega) 8 columns of 12.
+}
 
-  .has-sidebar-first,
-  .has-sidebar-second,
-  .has-two-sidebars {
-    .l-content {
-      @include span(8 of 12); // Span 8 out of 12 columns.
-    }
-    .l-region--sidebar-first,
-    .l-region--sidebar-second {
-      @include span(last 4 of 12); // Span the last (omega) 4 columns of 12.
-    }
-    .l-region--sidebar-second {
-      clear: right;
-    }
-  }
+.l-region--navigation {
+  clear: both;
+}
 
-  .l-column-first, .l-column-second {
-    @include span(6 of 12);
+.has-sidebar-first,
+.has-sidebar-second,
+.has-two-sidebars {
+  .l-content {
+    @include span(8);
+    // Span 8 out of 12 columns.
   }
+  .l-region--sidebar-first,
+  .l-region--sidebar-second {
+    @include span(last 4);
+    // Span the last (omega) 4 columns of 12.
+  }
+  .l-region--sidebar-second {
+    clear: right;
+  }
+}
 
-  .l-column-second {
-    @include last;
+.l-column-first, .l-column-second {
+  @include span(6);
+}
+
+.l-column-second {
+  @include last;
+}
+
+#block-views-preface-block-block {
+  .flipper-container {
+    @include span(3);
   }
+}
