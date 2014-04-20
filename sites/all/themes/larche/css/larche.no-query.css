@@ -94,6 +94,10 @@ body {
   background: url(../images/logo_footer.png);
   background-size: 89px 81px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/base\/_typography\.scss}line{font-family:\0000388}}
+.field--name-body img {
+  max-width: 100%; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\000031}}
 .l-branding {
   padding-top: 20px;
@@ -149,28 +153,30 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000340}}
 #block-system-main-menu > ul > li {
   display: inline-block;
-  margin: .5em .5em 0; }
+  margin: 0 .5em 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000343}}
   #block-system-main-menu > ul > li.last a {
     color: white;
     background-color: #fe7e00;
-    padding: .5em 2em;
+    margin: 10px 0;
+    padding: 0 2em;
+    line-height: 44px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000352}}
   #block-system-main-menu > ul > li:hover ul {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000354}}
-  #block-system-main-menu > ul > li a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000356}}
+  #block-system-main-menu > ul > li > a {
     font-size: 1em;
+    line-height: 64px;
     display: block;
-    color: #aeaeae;
-    padding-bottom: 1.2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000359}}
-    #block-system-main-menu > ul > li a.active-trail {
+    color: #aeaeae; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000362}}
+    #block-system-main-menu > ul > li > a.active-trail {
       color: #0298ca; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000366}}
   #block-system-main-menu > ul > li ul {
     -moz-border-radius: 0 0 5px 5px;
     -webkit-border-radius: 0;
@@ -183,35 +189,47 @@ body {
     left: -10px;
     width: 960px;
     background-color: rgba(2, 152, 202, 0.9);
-    padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000372}}
+    padding: 0 0 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000375}}
     #block-system-main-menu > ul > li ul a {
+      display: block;
       color: white;
       border-left: 1px solid white;
       padding-left: .5em;
-      margin-left: 1.6em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000377}}
+      margin-left: 1.6em;
+      line-height: 1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000382}}
+      #block-system-main-menu > ul > li ul a.active-trail {
+        color: #333;
+        border-color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000386}}
       #block-system-main-menu > ul > li ul a .description {
         margin-top: .25em;
         font-size: .875em;
+        width: 100%;
+        height: 3.6em;
+        line-height: 1.2em;
+        text-overflow: ellipsis;
+        overflow: hidden;
         font-weight: 300; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000397}}
     #block-system-main-menu > ul > li ul li {
       width: 23.72881%;
       float: left;
       margin-right: 1.69492%;
+      padding-right: 10px;
       margin-top: 1.5em;
-      margin-bottom: 1.5em;
+      margin-bottom: .5em;
       list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\00003103}}
       #block-system-main-menu > ul > li ul li:nth-child(4n) {
         float: right;
         margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\00003106}}
       #block-system-main-menu > ul > li ul li:nth-child(5n) {
         clear: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\00003115}}
 .l-region--navigation.collapsed ul ul {
   margin-left: -80px; }
 
