@@ -216,10 +216,8 @@ $databases = array (
     'default' => 
     array (
       'database' => 'larche',
-      //'username' => 'adminDJmFKvc',
-      //'password' => 'AdmMRmmzlcEJ',
-      'username' => 'root',
-      'password' => '',
+      'username' => 'adminDJmFKvc',
+      'password' => 'AdmMRmmzlcEJ',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
