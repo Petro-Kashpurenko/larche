@@ -15,6 +15,9 @@
 .view-content {
   .views-field-body {
     font-size: 14px;
+    .field-content p {
+      margin: 5px 0;
+    }
   }
   .views-field-title {
     font-size: 18px;
@@ -22,6 +25,7 @@
   .views-field-created {
     color: $blue;
     font-size: 14px;
+    padding-left: 130px;
   }
 }
 
