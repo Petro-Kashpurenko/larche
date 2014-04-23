@@ -83,3 +83,9 @@ body {
   background: url(../images/logo_footer.png);
   background-size: 89px 81px;
 }
+
+.field--name-body {
+  img {
+    max-width: 100%;
+  }
+}
