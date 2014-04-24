@@ -9,37 +9,39 @@
     height: 105px;
   }
   .l-column-second {
-    .view-content {
-      a {
-      
+    #block-views-preface-block-block-1 {
+      .flipper-container {
+        background-color: $blue;
+        height: 140px;
+        display: inline-block;
+        .title {
+          color: $white;
+        }
+        &.views-row-3 {
+          @include omega;
+          color:red;
+        }
+      }
+    }
+
+  }
+
+  .view-footer {
+    text-align: center;
+    a {
+      @extend .larche-icon;
+      @extend .larche-icon-read-more-cross;
+      color: $blue;
+      text-decoration: none;
+      font-size: 18px;
+      &:before {
+       width: 25px;
+       height: 25px;
+       margin: 5px;
      }
    }
-   .flipper-container {
-    background-color: $grey;
-    width: 140px;
-    height: 140px;
-    display: inline-block;
-    .title {
-      color: $white;
-    }
-  }
-}
-
-.view-footer {
-  text-align: center;
-  a {
-    @extend .larche-icon;
-    @extend .larche-icon-read-more-cross;
-    color: $blue;
-    text-decoration: none;
-    font-size: 18px;
-    &:before {
-     width: 25px;
-     height: 25px;
-     margin: 5px;
-   }
  }
-}
+
 
 }
 
