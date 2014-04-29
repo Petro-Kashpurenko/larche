@@ -96,7 +96,8 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/base\/_typography\.scss}line{font-family:\0000388}}
 .field--name-body img {
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/www\/larche\/sites\/all\/themes\/larche\/sass\/components\/_navigation\.scss}line{font-family:\000031}}
 .l-branding {
