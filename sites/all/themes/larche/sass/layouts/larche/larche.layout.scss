@@ -5,9 +5,9 @@
  * and building mobile first layouts.
  ******************************************************************************/
 
-@import "compass/css3";
+ @import "compass/css3";
 
-body {
+ body {
   * {
     @include box-sizing(border-box);
   }
@@ -39,15 +39,15 @@ $susy: (
     color: rgba(#66f, .25),
     output: background,
     toggle: top right,
-  ),
+    ),
   use-custom: (
     background-image: true,
     background-options: false,
     box-sizing: true,
     clearfix: false,
     rem: true,
-  )
-);
+    )
+  );
 
 @include layout($susy);
 
@@ -126,5 +126,12 @@ body {
 #block-views-preface-block-block {
   .flipper-container {
     @include span(3);
+  }
+}
+
+#block-views-preface-block-block-1 {
+  @include span(12);
+  .flipper-container {
+    @include span(4);
   }
 }

@@ -1,24 +1,47 @@
 .front {
+  .views-row {
+    padding: 10px 0;
+  }
   .views-field-field-image{
     float: left;
     margin-right: 25px;
     width: 105px;
+    height: 105px;
   }
   .l-column-second {
-    .view-content {
-      a {
-       width: 132px;
-       min-height: 32px;
-       background-color: $blue; 
-       border-radius: 3px;
-       display: block;
-       color: $white;
-       text-decoration: none;
-       text-align: center;
-       font-size: 14px;
+    #block-views-preface-block-block-1 {
+      .flipper-container {
+        background-color: $blue;
+        height: 140px;
+        display: inline-block;
+        .title {
+          color: $white;
+        }
+        &.views-row-3 {
+          @include omega;
+          color:red;
+        }
+      }
+    }
+
+  }
+
+  .view-footer {
+    text-align: center;
+    a {
+      @extend .larche-icon;
+      @extend .larche-icon-read-more-cross;
+      color: $blue;
+      text-decoration: none;
+      font-size: 18px;
+      &:before {
+       width: 25px;
+       height: 25px;
+       margin: 5px;
      }
    }
  }
+
 
 }
 

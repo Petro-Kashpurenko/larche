@@ -1,0 +1,57 @@
+.page-vacancies {
+  .views-row {
+    position: relative;
+    height: 100%;
+    margin: 20px 0;
+  }
+  .view-content {
+    font-size: 14px;
+  }
+  .views-field-title {
+    clear: both;
+    a {
+      color: $blue;
+      font-size: 18px;
+      text-decoration: none;
+    }
+  }
+  .views-field-body {
+    width: 80%;
+    display: inline-block;
+  }
+  .views-field-nothing {
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: top;
+    a {
+      display: block;
+      width: 132px;
+      height: 34px;
+      background-color: $blue;
+      border: 1px solid;
+      border-radius: 5px;
+      color: white;
+      line-height: 34px;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+}
+
+.page-apply {
+  #edit-actions {
+    text-align: center;
+    .form-submit {
+      color: $white;
+      background-color: $blue;
+      border-radius: 5px;
+      border-radius: 5px;
+      width: 130px;
+      height: 32px;
+      border: none;
+    }
+  }
+  form {
+    color: $grey;
+  }
+}
