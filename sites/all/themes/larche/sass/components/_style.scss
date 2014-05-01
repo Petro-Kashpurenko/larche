@@ -1,4 +1,8 @@
- .l-columns {
+.l-content {
+  min-height: 300px;
+}
+
+.l-columns {
   h2 {
     color: $blue;
     font-size: 1.5em;
@@ -29,4 +33,37 @@
   }
 }
 
- 
+
+//Same layout for literature and stories and filaretti
+.view-stories, .view-fioretti, .view-literature {
+  article {
+    header h2 a {
+      color: $blue;
+      text-decoration: none;
+    }
+    .links--inline a {
+      color: $blue;
+      text-decoration: none;
+    }
+    .node__content {
+      .field--name-field-image {
+      }
+      .field--name-body {
+        padding: 0px 10px;
+      }
+    } 
+  }
+}
+
+.view-stories {
+
+  article {
+    .field--name-field-image {
+    }
+    .field--name-body {
+        // background: $blue;
+        // border-radius: 10px;
+    }
+    
+  }
+}

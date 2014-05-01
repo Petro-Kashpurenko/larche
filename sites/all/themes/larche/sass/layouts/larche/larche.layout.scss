@@ -6,6 +6,7 @@
  ******************************************************************************/
 
  @import "compass/css3";
+ @import "compass/utilities/general/clearfix";
 
  body {
   * {
@@ -133,5 +134,53 @@ body {
   @include span(12);
   .flipper-container {
     @include span(4);
+  }
+}
+
+.l-region--footer {
+  @include span(12);
+  @include prefix(2);
+}
+
+#block-block-1, #block-block-2 {
+ @include span(4 of 10);
+}
+#block-block-2{
+  @include omega;
+}
+#block-block-3 {
+  @include span(10 of 10);
+}
+
+
+
+
+//Same layout for literature and stories and filaretti
+.view-stories, .view-fioretti, .view-literature {
+  @include span(12);
+  article {
+    header {
+      @include pre(2);
+    }
+    @include legacy-pie-clearfix;
+    .links {
+      // @include pre(2);
+      @include span(5 of 12);
+      @include suffix(3);
+      @include omega;
+    }
+    .node__content{
+      .field--name-field-image {
+        @include span(2 of 12);
+        img {
+          width: 100% !important; 
+          height: auto !important;
+        }
+      }
+      .field--name-body {
+        @include span(7 of 12);
+        @include post(3);
+      }
+    } 
   }
 }

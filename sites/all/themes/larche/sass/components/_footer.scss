@@ -1,3 +1,7 @@
+.l-footer {
+  position: relative;
+}
+
 .l-footer-wrapper {
   //height: 350px;
   background-color: #0298ca;
@@ -11,18 +15,8 @@
       color: blue;
     }
   }
-  .footer-logo {
-    display: inline-block;
-    vertical-align: top;
-  }
-  .l-region, .l-region--footer {
-    display: inline-block;
-    margin-left: 120px;
-  }
+
   #block-block-1, #block-block-2 {
-    display: inline-block;
-    margin-top: 40px;
-    margin-left: 40px;
     .block__content {
       position: relative;
       &:before {
@@ -35,7 +29,13 @@
     }
   }
 }
-#block-block-3 {
-  padding-top: 40px;
-  padding-left: 15px;
+
+.footer-logo {
+  position: absolute;
+  top: 1.2em;
+  height: 81px;
+  width: 89px;
+  background: url(../images/logo_footer.png);
+  background-size: 89px 81px;
 }
+

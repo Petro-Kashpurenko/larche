@@ -69,24 +69,47 @@
 
 body {
   font-family: 'Open Sans';
+  font-size: 16px;
 }
 
 .clearfix {
   @include legacy-pie-clearfix;
 }
 
-.footer-logo {
-  position: relative;
-  top: 1.2em;
-  height: 81px;
-  width: 89px;
-  background: url(../images/logo_footer.png);
-  background-size: 89px 81px;
-}
+
 
 .field--name-body {
   img {
     max-width: 100%;
     height: auto;
   }
+}
+
+
+h1, h2 {
+  color: $blue;
+}
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  color: #666;
+  text-align: justify;
+  
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  /*Font*/
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
 }
