@@ -155,32 +155,23 @@ body {
 
 
 
-//Same layout for literature and stories and filaretti
-.view-stories, .view-fioretti, .view-literature {
-  @include span(12);
-  article {
-    header {
-      @include pre(2);
-    }
-    @include legacy-pie-clearfix;
-    .links {
-      // @include pre(2);
-      @include span(5 of 12);
-      @include suffix(3);
-      @include omega;
-    }
-    .node__content{
-      .field--name-field-image {
-        @include span(2 of 12);
-        img {
-          width: 100% !important; 
-          height: auto !important;
-        }
+
+.articles-view-list {
+  .views-row {
+   @include legacy-pie-clearfix;
+   @include span(12);
+   @include legacy-pie-clearfix;
+
+     .image-place {
+      @include span(2 of 12);
+      img {
+        width: 100% !important; 
+        height: auto !important;
       }
-      .field--name-body {
-        @include span(7 of 12);
-        @include post(3);
-      }
+    }
+    .bubble-content {
+      @include span(7 of 12);
+      @include post(3);
     } 
   }
 }

@@ -37,10 +37,7 @@
 //Same layout for literature and stories and filaretti
 .view-stories, .view-fioretti, .view-literature {
   article {
-    header h2 a {
-      color: $blue;
-      text-decoration: none;
-    }
+
     .links--inline a {
       color: $blue;
       text-decoration: none;
@@ -49,21 +46,39 @@
       .field--name-field-image {
       }
       .field--name-body {
-        padding: 0px 10px;
+
       }
     } 
   }
 }
 
-.view-stories {
-
-  article {
-    .field--name-field-image {
+.articles-view-list {
+  .views-row {
+   .image-place {
+   }
+   .bubble-content {
+    background-color: $blue;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 40px;
+    h2 {
+      color: $white;
+      margin: 0;
     }
-    .field--name-body {
-        // background: $blue;
-        // border-radius: 10px;
+    .field-author {
+      color: white;
+      font-style: italic;
+      font-size: 14px;
     }
-    
-  }
+    .field-body {
+      font-size: 14px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      float: right;
+      font-size: 14px;
+    }
+  } 
+}
 }

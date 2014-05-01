@@ -808,17 +808,35 @@ html[xmlns] .slides {
   font-size: 14px;
   padding-left: 130px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000340}}
-.view-stories article header h2 a, .view-fioretti article header h2 a, .view-literature article header h2 a {
-  color: #0298ca;
-  text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000341}}
 .view-stories article .links--inline a, .view-fioretti article .links--inline a, .view-literature article .links--inline a {
   color: #0298ca;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000351}}
-.view-stories article .node__content .field--name-body, .view-fioretti article .node__content .field--name-body, .view-literature article .node__content .field--name-body {
-  padding: 0px 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000359}}
+.articles-view-list .views-row .bubble-content {
+  background-color: #0298ca;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000364}}
+  .articles-view-list .views-row .bubble-content h2 {
+    color: white;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000368}}
+  .articles-view-list .views-row .bubble-content .field-author {
+    color: white;
+    font-style: italic;
+    font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000373}}
+  .articles-view-list .views-row .bubble-content .field-body {
+    font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000376}}
+  .articles-view-list .views-row .bubble-content a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    font-size: 14px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_front\.scss}line{font-family:\000032}}
 .front .views-row {

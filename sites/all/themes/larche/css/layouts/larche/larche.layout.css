@@ -151,44 +151,40 @@ body {
   width: 100%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003159}}
-.view-stories, .view-fioretti, .view-literature {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003160}}
+.articles-view-list .views-row {
+  *zoom: 1;
   width: 100%;
-  float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003161}}
-  .view-stories article, .view-fioretti article, .view-literature article {
-    *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003162}}
-    .view-stories article header, .view-fioretti article header, .view-literature article header {
-      margin-left: 17.02128%; }
+  float: left;
+  *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Ruby200\/lib\/ruby\/gems\/2\.0\.0\/gems\/compass-core-1\.0\.0\.alpha\.19\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000322}}
-    .view-stories article:after, .view-fioretti article:after, .view-literature article:after {
-      content: "\0020";
-      display: block;
-      height: 0;
-      clear: both;
-      overflow: hidden;
-      visibility: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003166}}
-    .view-stories article .links, .view-fioretti article .links, .view-literature article .links {
-      width: 40.42553%;
-      float: left;
-      margin-right: 2.12766%;
-      padding-right: 25.53191%;
-      float: right;
-      margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003173}}
-    .view-stories article .node__content .field--name-field-image, .view-fioretti article .node__content .field--name-field-image, .view-literature article .node__content .field--name-field-image {
-      width: 14.89362%;
-      float: left;
-      margin-right: 2.12766%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003175}}
-      .view-stories article .node__content .field--name-field-image img, .view-fioretti article .node__content .field--name-field-image img, .view-literature article .node__content .field--name-field-image img {
-        width: 100% !important;
-        height: auto !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003180}}
-    .view-stories article .node__content .field--name-body, .view-fioretti article .node__content .field--name-body, .view-literature article .node__content .field--name-body {
-      width: 57.44681%;
-      float: left;
-      margin-right: 2.12766%;
-      margin-right: 25.53191%; }
+  .articles-view-list .views-row:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Ruby200\/lib\/ruby\/gems\/2\.0\.0\/gems\/compass-core-1\.0\.0\.alpha\.19\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000322}}
+  .articles-view-list .views-row:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003165}}
+  .articles-view-list .views-row .image-place {
+    width: 14.89362%;
+    float: left;
+    margin-right: 2.12766%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003167}}
+    .articles-view-list .views-row .image-place img {
+      width: 100% !important;
+      height: auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003172}}
+  .articles-view-list .views-row .bubble-content {
+    width: 57.44681%;
+    float: left;
+    margin-right: 2.12766%;
+    margin-right: 25.53191%; }
