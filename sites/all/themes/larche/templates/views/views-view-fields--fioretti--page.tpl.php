@@ -30,9 +30,8 @@
 <div class="image-place">
   <?php print $fields['field_image']->content; ?>
 </div>
-<div class="bubble-content">
+<div class="normal-content">
   <?php print $fields['title']->content; ?>
-  <div class="field-author"><?php print $fields['field_story_author']->content; ?></div>
+  <div class="field-author"><?php print $fields['field_fioretti_author']->content; ?></div>
   <div class="field-body"><?php print $fields['body']->content; ?></div>
-  <div class="view-node"><?php print $fields['view_node']->content; ?></div>
 </div>
