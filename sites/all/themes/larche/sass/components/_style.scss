@@ -57,6 +57,7 @@
    .image-place {
    }
    .bubble-content {
+    position: relative;
     background-color: $blue;
     border-radius: 10px;
     padding: 10px 15px;
@@ -64,6 +65,7 @@
     h2 {
       color: $white;
       margin: 0;
+      font-weight: normal;
     }
     .field-author {
       color: white;
@@ -78,6 +80,18 @@
       color: white;
       float: right;
       font-size: 14px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 20px;
+      left: -14px;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent; 
+      border-right: 15px solid $blue; 
     }
   } 
 }

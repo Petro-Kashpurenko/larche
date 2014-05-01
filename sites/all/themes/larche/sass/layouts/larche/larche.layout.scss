@@ -163,6 +163,8 @@ body {
    @include legacy-pie-clearfix;
 
      .image-place {
+      //to make sure content doesn't take its place
+      min-height: 100px;
       @include span(2 of 12);
       img {
         width: 100% !important; 
@@ -175,3 +177,4 @@ body {
     } 
   }
 }
+

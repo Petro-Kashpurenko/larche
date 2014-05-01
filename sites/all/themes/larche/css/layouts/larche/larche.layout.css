@@ -175,14 +175,15 @@ body {
     visibility: hidden; }
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003165}}
   .articles-view-list .views-row .image-place {
+    min-height: 100px;
     width: 14.89362%;
     float: left;
     margin-right: 2.12766%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003169}}
     .articles-view-list .views-row .image-place img {
       width: 100% !important;
       height: auto !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/layouts\/larche\/larche\.layout\.scss}line{font-family:\00003174}}
   .articles-view-list .views-row .bubble-content {
     width: 57.44681%;
     float: left;

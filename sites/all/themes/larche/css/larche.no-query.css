@@ -741,25 +741,27 @@ html[xmlns] .slides {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 .l-footer {
-  position: relative; }
+  position: relative;
+  padding-top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\000036}}
 .l-footer-wrapper {
   background-color: #0298ca;
   color: white;
   font-family: open sans semibold;
-  font-size: 0.875em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
+  font-size: 0.875em;
+  min-height: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000313}}
   .l-footer-wrapper a {
     color: white;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000316}}
     .l-footer-wrapper a:hover {
       color: blue; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000322}}
   .l-footer-wrapper #block-block-1 .block__content, .l-footer-wrapper #block-block-2 .block__content {
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000324}}
     .l-footer-wrapper #block-block-1 .block__content:before, .l-footer-wrapper #block-block-2 .block__content:before {
       content: "";
       border-left: 1px solid white;
@@ -767,7 +769,7 @@ html[xmlns] .slides {
       position: absolute;
       left: -5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_footer\.scss}line{font-family:\0000335}}
 .footer-logo {
   position: absolute;
   top: 1.2em;
@@ -815,28 +817,42 @@ html[xmlns] .slides {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000359}}
 .articles-view-list .views-row .bubble-content {
+  position: relative;
   background-color: #0298ca;
   border-radius: 10px;
   padding: 10px 15px;
   margin-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000365}}
   .articles-view-list .views-row .bubble-content h2 {
     color: white;
-    margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000368}}
+    margin: 0;
+    font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000370}}
   .articles-view-list .views-row .bubble-content .field-author {
     color: white;
     font-style: italic;
     font-size: 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000375}}
   .articles-view-list .views-row .bubble-content .field-body {
     font-size: 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000378}}
   .articles-view-list .views-row .bubble-content a {
     text-decoration: none;
     color: white;
     float: right;
     font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000383}}
+    .articles-view-list .views-row .bubble-content a:hover {
+      text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_style\.scss}line{font-family:\0000387}}
+  .articles-view-list .views-row .bubble-content:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: -14px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #0298ca; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/OpenServer\/domains\/larche\/sites\/all\/themes\/larche\/sass\/components\/_front\.scss}line{font-family:\000032}}
 .front .views-row {

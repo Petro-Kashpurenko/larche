@@ -1,5 +1,6 @@
 .l-footer {
   position: relative;
+  padding-top: 20px;
 }
 
 .l-footer-wrapper {
@@ -8,6 +9,7 @@
   color: $white;
   font-family: open sans semibold;
   font-size: 0.875em;
+  min-height: 300px;
   a {
     color: $white;
     text-decoration: none;
