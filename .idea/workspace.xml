@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1861564-0f80-4f65-a1b9-04db6ec69660" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/sass/base/_typography.scss" afterPath="$PROJECT_DIR$/sites/all/themes/larche/sass/base/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.no-query.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--stories--page.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="larche.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398179394695" ignored="false" />
+    <file path="/Dummy.txt" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398941236100" ignored="false" />
     <file path="/larche.layout.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398030558336" ignored="false" />
     <file path="/_navigation.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398031542404" ignored="false" />
     <file path="/larche.styles.scss" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398007713437" ignored="false" />
@@ -46,6 +45,8 @@
     <file path="$PROJECT_DIR$/../vhi-defrag/dist/outdated_404.html" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398182605416" ignored="false" />
     <file path="$PROJECT_DIR$/../vhi-defrag/dist/index.html" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398181787058" ignored="false" />
     <file path="$PROJECT_DIR$/../vhi-defrag/.tmp/scripts/hello.js" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398181787058" ignored="false" />
+    <file path="/views-view-fields--articles--page.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398953728364" ignored="false" />
+    <file path="/views-view-fields--stories--page.tpl.php" changelist="b1861564-0f80-4f65-a1b9-04db6ec69660" time="1398954820124" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -96,7 +98,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -109,7 +110,7 @@
       <file leaf-file-name="larche.layout.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/layouts/larche/larche.layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+            <state line="8" column="23" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +119,7 @@
       <file leaf-file-name="larche.styles.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/larche.styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+            <state line="3" column="18" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,16 +128,7 @@
       <file leaf-file-name="_navigation.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_navigation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="28" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+            <state line="84" column="9" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/system/html.tpl.php">
+      <file leaf-file-name="_typography.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/base/_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="1141" selection-end="1142" vertical-scroll-proportion="0.0">
+            <state line="52" column="0" selection-start="852" selection-end="1019" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,34 +155,45 @@
       <file leaf-file-name="views-view-unformatted--preface-block--block.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-unformatted--preface-block--block.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+            <state line="18" column="8" selection-start="403" selection-end="403" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="larche-layout.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/layouts/larche/larche-layout.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="7" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_typography.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/base/_typography.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="852" selection-end="1019" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_preface-blocks.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_preface-blocks.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="7" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.79710144">
+            <state line="123" column="7" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-view-fields--stories--page.tpl.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--stories--page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="7" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.7380319">
+              <folding>
+                <element signature="e#7#1149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-view-fields--preface-block--block.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--preface-block--block.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="1513" selection-end="1811" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="223" column="21" selection-start="7969" selection-end="7969" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -214,14 +217,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-unformatted--preface-block--block.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--preface-block--block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_flexslider.scss" />
-        <option value="$PROJECT_DIR$/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/larche_custom/larche_custom.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_news.scss" />
-        <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/js/larche.behaviors.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/layouts/larche/larche-layout.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_footer.scss" />
@@ -230,6 +229,10 @@
         <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/layouts/larche/larche.layout.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_navigation.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/base/_typography.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss" />
+        <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--articles--page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--stories--page.tpl.php" />
       </list>
     </option>
   </component>
@@ -266,7 +269,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -314,6 +316,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -339,24 +359,115 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="136" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="138" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="148" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="149" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="148" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="136" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="141" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="936" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="936" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="141" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="138" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="947" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="947" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="149" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
@@ -404,19 +515,6 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -443,6 +541,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -515,7 +626,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -527,14 +638,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32083333" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43541667" sideWeight="0.67176473" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -605,16 +716,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/css/larche.styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/js/larche.behaviors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="6" selection-start="2910" selection-end="2910" vertical-scroll-proportion="0.0" />
@@ -630,20 +731,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.75" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--preface-block--block.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="4" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-unformatted--preface-block--block.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/system/html.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="44" selection-start="1141" selection-end="1142" vertical-scroll-proportion="0.0">
@@ -653,14 +740,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/layouts/larche/larche-layout.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="7" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
+        <state line="30" column="7" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -674,36 +761,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/larche.styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+        <state line="3" column="18" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/layouts/larche/larche.layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+        <state line="8" column="23" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="28" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0">
+        <state line="84" column="9" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/base/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="852" selection-end="1019" vertical-scroll-proportion="0.0">
+        <state line="52" column="0" selection-start="852" selection-end="1019" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/sass/components/_preface-blocks.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="7" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.79710144">
+        <state line="123" column="7" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="21" selection-start="7969" selection-end="7969" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-unformatted--preface-block--block.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="403" selection-end="403" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--preface-block--block.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1513" selection-end="1811" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/larche/templates/views/views-view-fields--stories--page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="7" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.7380319">
+          <folding>
+            <element signature="e#7#1149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
