@@ -135,6 +135,8 @@ body {
   .flipper-container {
     @include span(4);
   }
+  float: none;
+  @include legacy-pie-clearfix;
 }
 
 .l-region--footer {

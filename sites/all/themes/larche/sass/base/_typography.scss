@@ -113,3 +113,37 @@ blockquote::before{
   left: 10px;
   top:5px;
 }
+
+#block-views-preface-block-block-1 {
+  .flipper-container .flipper .front {
+    &:before {
+      position: absolute;
+      @extend .larche-icon;
+      font-size: 130px;
+      color: lighten(#0298ca, 4);
+      z-index: -1;
+    }
+  }
+
+  .flipper-container .flipper .back {
+    a {
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      text-decoration: underline;
+    }
+  }
+
+  .flipper-container.preface-0 .flipper .front {
+    @extend .larche-icon-assistant-0;
+  }
+
+  .flipper-container.preface-1 .flipper .front {
+    @extend .larche-icon-assistant-2;
+  }
+
+  .flipper-container.preface-2 .flipper .front {
+    @extend .larche-icon-assistant-1;
+  }
+}

@@ -3,9 +3,22 @@
   text-align: center;
 }
  
-.site-logo img {
-  width: 89px;
-  height: 81px;
+//.site-logo img {
+//  width: 89px;
+//  height: 81px;
+//}
+
+.site-logo {
+  img {
+    display: none;
+  }
+  display: block;
+  margin: 0 auto;
+  background-image: url(../images/logo-full.png);
+  background-repeat: no-repeat;
+  background-size: 274px 86px;
+  width: 274px;
+  height: 86px;
 }
 
 .l-header-wrapper {
